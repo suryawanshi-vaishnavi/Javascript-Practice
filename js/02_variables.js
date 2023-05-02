@@ -1,10 +1,11 @@
 /*console.log("first program in javascript")
-var  a=5; //we can write let also instead of var
+var  a=5; 
 console.log(a)
 a="xyz";
 console.log(a)
 //xyz=5;
 //console.log(a)*/
+
 // var //
 // var message;
 // message="Hello vaishnavi"

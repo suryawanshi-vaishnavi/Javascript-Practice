@@ -26,3 +26,4 @@ undefined,null,boolean,string,symbol,number,object */
 /*object-primitive datatype*/
 const personDetails={ name:"vaishnavi",age:20,education:"Engg"}
 console.log(personDetails)
+ 
