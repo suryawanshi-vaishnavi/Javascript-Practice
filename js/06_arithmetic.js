@@ -1,4 +1,4 @@
-const x =12;
+const x =36;
 const y=3;
 
 console.log(x+y);
