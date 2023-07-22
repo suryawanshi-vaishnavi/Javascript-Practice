@@ -17,7 +17,7 @@ console.log(a)
 // let text;
 // text="GFG";
 // console.log(text);
-
+                             //let vs const differnce is we can resign the values of let but in const we cannot resign it the values are constant li pi=3.14 we cannot the value of it
 //const//
 //const number;
 //number=3;
