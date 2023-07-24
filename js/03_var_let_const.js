@@ -1,4 +1,4 @@
-console.log("javascripy tutorial 3")
+console.log("javascript tutorial 3")
 //var a=45;
 //var b="Divya"
 let a=45;
