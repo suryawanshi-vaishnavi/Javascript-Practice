@@ -87,3 +87,11 @@ function testFn()
 }
 
 testFn() 
+
+/* op: so globally declared variable will not overwrite block or function scoped variable
+vaish
+100
+surya
+100
+*/
+
