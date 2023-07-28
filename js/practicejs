@@ -27,9 +27,14 @@
 // }while(i<=5)
 
 
-let is_raining = true ;
-if(is_raining = true){
-   console.log('it is raining');
-}else{
-   console.log('it is not raining');
-}
+// let is_raining = true ;
+// if(is_raining = true){
+//    console.log('it is raining');
+// }else{
+//    console.log('it is not raining');
+// }
+
+
+var radius = 5.0;
+var area = 3.14*radius**2;
+console.log(area);
