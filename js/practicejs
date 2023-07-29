@@ -35,6 +35,12 @@
 // }
 
 
-var radius = 5.0;
-var area = 3.14*radius**2;
-console.log(area);
+// var radius = 5.0;
+// var area = 3.14*radius**2;
+// console.log(area);
+
+
+
+let celsius = 55.6;
+let F = (celsius* 9/5) + 32 ;
+console.log(F);
