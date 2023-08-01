@@ -24,3 +24,5 @@ console.log(a)
 //console.log(number);//this code gives error missing initializer
 const number=3;
 console.log(number);
+let name=vaish;
+comsole.log(name);
