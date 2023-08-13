@@ -19,5 +19,5 @@
 //last index = length-1 if you dont the length of string then
 
 let firstName="vaishfsndksmssiskla";
-console.log(firstName.length);
+console.log(firstName[firstName.length-2]); //op-l
 
