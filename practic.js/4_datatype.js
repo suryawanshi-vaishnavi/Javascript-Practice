@@ -44,5 +44,9 @@ let string1 ="vaish";
 let string2 ="surya";
 
 let string3 = string1+ string2;
-console.log(string3);
+console.log(string3); // output-vaishsurya but i want space in between so i can write it with " "
+
+let string4 = string1+" "+ string2;
+console.log(string4);
+
 
