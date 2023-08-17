@@ -84,9 +84,31 @@ console.log(typeof(string3)) // number
 
 /* template string */
 
+
+/*
 let age =22;
-let name ="vaish";
-let aboutme="my name is " + name + "my age is" + age;
+let firstName ="vaish";
+// let aboutme="my name is" + firstName + "my age is" + age;// output-my name isvaishmy age is22
+// let aboutme="my name is " + firstName + " my age is " + age;//output- my name is vaish my age is 22
+// let aboutme= `my name is ${firstName} my age is ${age}`;//output- my name is vaish my age is 22 (backticks gives the type of string)
+let aboutme= "my name is  ${firstName}   my age is   ${age}";//output-my name is  ${firstName}   my age is   ${age} 
 console.log(aboutme);
 
+*/
 
+
+/*  undefined */
+
+/*
+
+// let string1;
+var string1;
+// const string;//  gives error Missing initializer in const declaration
+
+console.log( typeof string1) // output-undefined 
+*/
+
+
+/* null */
+let string1=null;
+console.log(typeof string1);
