@@ -110,5 +110,30 @@ console.log( typeof string1) // output-undefined
 
 
 /* null */
-let string1=null;
-console.log(typeof string1);
+// let string1=null;
+// console.log(typeof string1);//output-object type is showing object where it has to show that type is null. this Bug,error in javascript , then still why they r not working on this bug if they do we have to change whole code
+
+
+/* BigInt */
+
+// let num = 123;// you can aske here ky iss number ki koi limit hai ji ha javscript mai iski limit hai in JS kuch limit tak hi num store kr sakte hai
+// // console.log(num);
+// console.log(Number.MAX_SAFE_INTEGER)//output-9007199254740991(itna bada integer we can store in JS) MAX_SAFE_INTEGER will show kitns bada integer store kr sakte hai 
+// agar aapko lg raha hai aapke code mai isse bada integer ho sakata hai then we use BigInt
+
+
+
+// let myNum=BigInt(12345678987654332110);
+// console.log(myNum);//output-12345678987654332416n(n is BigInt) we can use Bigint for small value also BigInt(12)
+
+// there  are two types to write Bigint 1.Bignt(123) 2.123n
+
+// let myNum=BigInt(12);
+// let Num=12n;
+// console.log(myNum +Num);//output-24n
+
+//We can not add bigint with another datatypes
+
+let myNum=BigInt(12);
+let Num=12;
+console.log(myNum +Num);//output-mix BigInt and other types, use explicit conversions Bigint ke sath bigint hi
